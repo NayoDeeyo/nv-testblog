@@ -7,7 +7,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.get('/status', function (req, res){
-    res.send('hekko nodejs server')
+    res.send('hello nodejs server')
 })
 
 app.get('/hello/:person', function (req,res) {
